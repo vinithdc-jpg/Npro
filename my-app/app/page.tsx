@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <main>
-      <NavBar />
+      Main page
     </main>
   );
 }
