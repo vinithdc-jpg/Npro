@@ -33,7 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex justify-center">
+          <div className="flex justify-center z-20 mt-10">
             <NavBar />
           </div>
           {children}
